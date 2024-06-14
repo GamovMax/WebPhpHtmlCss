@@ -1,0 +1,33 @@
+<table>
+	<tr>
+		<th>
+			<a href = "/">Новости</a>
+		</th>
+	</tr>
+
+	<tr>
+		<th>
+			<a href = "photo.php">Фото</a>
+		</th>
+	</tr>
+
+<?php
+
+if (!empty($_SESSION['status']))
+{
+	echo '<tr><th><a href = "chat.php">Чат</a></th></tr>'; 
+	echo '<tr><th><a href = "users.php">Наши участники</a></th></tr>'; 
+	echo '<tr><th><a href = "interview.php">Опрос</a></th></tr>'; 
+	if ($_SESSION['status'] == 'admin' or $_SESSION['status'] == 'mod')
+		{echo '<tr><th><a href = "admin.php"><font color="#aaaaaa"><u>Админская</u></font></a></th></tr>';}
+	echo '<tr><th><a href = "message.php">Написать админу</a></th></tr>';
+}
+
+?>
+
+	<tr>
+		<th>
+			<a href = "faq.php">О проекте</a>
+		</th>
+	</tr>
+</table>

@@ -1,0 +1,10 @@
+<?php
+if (empty($_SESSION['user']))
+{
+	echo '<p><a href = "log.php"><font color = "white"><b>Войти</b></font></a></p><p><a href = "reg.php"><font color = "white"><b>Регистрация</b></font></a></p>';
+}
+else 
+{
+	echo '<p><a href = "profile.php?id='.$_SESSION['ids'].'"><font color="white"><b>'.$_SESSION['user'].'</b></font></a></p><p><a href = "logout.php"><font color = "white"><b>Выход из системы</b></font></a></p>';
+}
+?>

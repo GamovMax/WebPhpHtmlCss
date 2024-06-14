@@ -1,0 +1,292 @@
+body {
+    background-image: url(img/fon.jpg);
+    background-attachment:fixed;
+    background-repeat: repeat-x;
+    font-family: "Times New Roman", Times, serif;
+}
+a {
+    font-size: 16px;
+    color: #EEEEEE;
+    text-decoration: underline;
+}
+h1 {
+    font-family: "Courier New", Courier, monospace;
+    color: #000000;
+    clear: both;
+}
+h2 {
+    font-family: "Courier New", Courier, monospace;
+    color: #EEEEEE;
+}
+
+#header {
+    background-image: url(img/bg.jpg);
+    height: 125px;
+    width: 975px;
+    float: left;
+    clear: both;
+}
+#content {
+    height: auto;
+    width: auto;
+    clear: both;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#footer {
+    font-family: "Courier New", Courier, monospace;
+    padding-top: 20px;
+    text-align: center;
+    color:#FFFFFF;
+    height: 50px;
+    width: 975px;
+    clear: both;
+    background-image: url(img/footer.png);
+}
+
+#menu {
+    height: 710px;
+    width: 155px;
+    float: left;
+    text-align: center;
+}
+#menu a {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#menu th {
+    background-image: url(img/comment_box.png);
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 155px;
+    /*border: 1px solid #FFFFFF;*/
+}
+#text {
+    height: auto;
+    width: 820px;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px;
+    background-image: url(img/g1.png), url(img/f1.png), url(img/fish2.png),  url(img/fish3.png),  url(img/lilly1.png), url(img/lilly2.png),url(img/lilly3.png);
+    border: 1px solid #FFFFFF;
+    margin-top: 2px;
+}
+#text #text_box {
+    height: 450px;
+    width: 550px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: auto;
+    clear: both;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    color: #EEEEEE;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#text #text_box h1 {
+    color: #EEEEEE;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#text #text_box h2 {
+    text-align: center;
+}
+#text #text_box td {
+    font-size: 24px;
+    text-align: left;
+}
+#all_reg {
+    height: auto;
+    width: 750px;
+    text-align: center;
+    color: #CCCCCC;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#text #box_v1 {
+    float: left;
+    height: auto;
+    width: 240px;
+    border: 2px solid #FFFFFF;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+
+}
+#text #box_v2 {
+    float: left;
+    height: auto;
+    width: 240px;
+    border: 2px solid #FFFFFF;
+    margin: 10px;
+}
+#text #box_v3 {
+    float: left;
+    height: auto;
+    width: 240px;
+    border: 2px solid #FFFFFF;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+#all_log {
+    height: auto;
+    width: 400px;
+    text-align: center;
+    color: #CCCCCC;
+    clear: both;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+#logo {
+    position:absolute;
+    left:-10px;
+    top:-10px;
+}
+#title {
+    height: 90px;
+    width: 600px;
+    float: left;
+    padding-top: 5px;
+    margin-left: 210px;
+    text-align: center;
+}
+
+
+#comment {
+    text-align: center;
+    clear: both;
+    height: 156px;
+    width: 389px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #EEEEEE;
+}
+#user {
+    font-family: "Courier New", Courier, monospace;
+    float: right;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    background-image: url(img/box_user.png);
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+.img_box {
+    clear: both;
+    width: 610px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.news {
+    font-size: 18px;
+    color: #EEEEEE;
+    text-align: left;
+    clear: both;
+    height: auto;
+    width: 750px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    border: 0px solid #FFFFFF;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.news_top
+{
+    color:#333333;
+    background-color:#AAAAAA;
+}
+.news_bot
+{
+    margin-left: 15px;
+}
+.inter_o {
+    font-size: 18px;
+    color: #EEEEEE;
+    text-align: left;
+    height: auto;
+    width: 235px;
+    margin-right: auto;
+    margin-bottom: 6px;
+    margin-left: auto;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+.table_profile {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.tab_opr {
+    color: #FFFFFF;
+    text-align: left;
+    clear: both;
+    border: 2px solid #FFFFFF;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-left: auto;
+    width: 236px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+.tab_res {
+    color: #FFFFFF;
+    text-align: left;
+    clear: both;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-bottom: 2px;
+    margin-left: auto;
+    width: 236px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+.p_reg {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.p_profile {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.p_faq {
+    font-size: 18px;
+    color: #CCCCCC;
+    text-align: justify;
+}
+.p_view {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #CCCCCC;
+    text-decoration: overline underline;
+}
